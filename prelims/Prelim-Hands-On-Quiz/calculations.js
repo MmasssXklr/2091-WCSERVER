@@ -1,28 +1,17 @@
-//Author: Maniago, Charmagne Dale G.
-//Date 01/30/23       6WCSERVER
+function add(a, b) {
+  return a + b;
+}
 
-var comp = './calculations.js';
+function sub(a, b) {
+  return a - b;
+}
 
-var rate = 300;
-var hours = 3;
-var days = 6;
-var taxRate = 0.1;
-var sss = 1200;
-var pagIbig = 300;
-var philHealth = 400;
+function mul(a, b) {
+  return a * b;
+}
 
-var groIncome1 = comp.mul(rate, hours);
-var groIncome2 = comp.mul(groIncome1, days);
-var tax = comp.mul(groIncome2, taxRate);
-var dduct1 = comp.mul(tax, sss);
-var dduct2 = comp.mul(pagIbig, philHealth);
-var dduct3 = comp.add(dduct1, dduct2);
-var nSal = comp.sub(groIncome2, dduct3);
+function div(a, b) {
+  return a / b;
+}
 
-console.log('The Gross Income is: ' + groIncome2);
-console.log('Tax: ' + taxRate);
-console.log('SSS: ' + sss);
-console.log('Pag-ibig fund: ' + pagIbig);
-console.log('PhilHealth: ' + philHealth);
-console.log('Total Deductions: ' + dduct3);
-console.log('The Net Salary is: ' + nSal);
+module.exports = { add, sub, mul, div };
