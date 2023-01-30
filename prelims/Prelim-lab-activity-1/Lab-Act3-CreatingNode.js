@@ -12,19 +12,19 @@ var server = http.createServer(function (req, res) {
   } else if (req.url == '/root') {
     res.writeHead(200, { 'Content-Type': 'text/html' });
     res.write(
-      '<html><body><p><b>Welcome to my Node.js Application<b> Welcome John Smith. This is an activity about basics of Node.js</p></body></html>'
+      '<html><body><p><b>Welcome to my Node.js Application<b> Welcome Charmagne Maniago. This is an activity about basics of Node.js</p></body></html>'
     );
     res.end();
   } else if (req.url == '/about') {
     res.writeHead(200, { 'Content-Type': 'text/html' });
     res.write(
-      '<html><body><p><b>This is the About Page<b> Hello John Smith. This activity will teach on how to deal with a simple server and local modules in Nodes.js</p></body></html>'
+      '<html><body><p><b>This is the About Page<b> Hello Charmagne Maniago. This activity will teach on how to deal with a simple server and local modules in Nodes.js</p></body></html>'
     );
     res.end();
   } else if (req.url == '/contact') {
     res.writeHead(200, { 'Content-Type': 'text/html' });
     res.write(
-      '<html><body><p><b>This is the Contact Page<b>John Smith, if you want additional details aboput this activity go to this site: https://www.tutorialsteacher.com/nodejs/nodejs-tutorials</p></body></html>'
+      '<html><body><p><b>This is the Contact Page<b>Charmagne Maniago, if you want additional details aboput this activity go to this site: https://www.tutorialsteacher.com/nodejs/nodejs-tutorials</p></body></html>'
     );
     res.end();
   } else if (req.url == '/gallery') {
