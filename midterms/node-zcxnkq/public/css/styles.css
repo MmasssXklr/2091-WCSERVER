@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.bio {
+  color: blue;
+  text-align: right;
+}
+
+footer {
+  margin-top: 180%;
+  text-align: end;
+}
